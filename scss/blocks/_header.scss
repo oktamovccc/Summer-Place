@@ -1,0 +1,51 @@
+.header{
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid goldenrod;
+    padding: 8px 0;
+
+    &__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 200px;
+    }
+}
+
+.navigation{
+
+    &__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+}
+
+.list {
+
+    &__item span{
+        color: goldenrod;
+    }
+
+    &__item{
+        color: black;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: .3s ease;
+    }
+
+    &__item:hover{
+        color: goldenrod;
+    }
+}
+
+.special{
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    padding: 8px 22px;
+}

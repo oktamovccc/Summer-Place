@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid goldenrod;
+  padding: 8px 0;
+}
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.list__item span {
+  color: goldenrod;
+}
+.list__item {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+.list__item:hover {
+  color: goldenrod;
+}
+
+.special {
+  color: goldenrod;
+  border: 1px solid goldenrod;
+  padding: 8px 22px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
